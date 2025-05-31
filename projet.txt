@@ -1,0 +1,66 @@
+Préparation des Données
+Nettoyage:
+
+Gestion des valeurs manquantes (Age, Embarked)
+
+Vérification des doublons
+
+Encodage des variables catégorielles (Sex, Embarked)
+
+Feature Engineering:
+
+Création de nouvelles variables (famille_size = SibSp + Parch)
+
+Discrétisation de l'âge et du prix
+
+Normalisation des variables numériques
+
+2. Modélisation de Classification
+Modèles à tester:
+
+Random Forest
+
+XGBoost
+
+Régression Logistique
+
+SVM
+
+Optimisation:
+
+Validation croisée
+
+GridSearch pour l'optimisation des hyperparamètres
+
+Feature importance
+
+3. Intégration d'IA Générative
+Génération de données synthétiques:
+
+Utilisation de GANs ou VAEs pour augmenter le dataset
+
+Test de modèles sur données générées
+
+Explication des modèles:
+
+Utilisation de LLMs pour générer des explications des prédictions
+
+Création de rapports automatiques
+
+4. Tests de Régression
+Bien que l'objectif principal soit la classification, nous pouvons:
+
+Tester la prédiction de l'âge ou du prix (Fare) comme exercice complémentaire
+
+Comparer les performances entre différents algorithmes de régression
+
+Étapes Suivantes Recommandées
+Obtenir un jeu de données complet - La matrice fournie semble incomplète/erronée
+
+Exploration approfondie - Analyse univariée et bivariée complète
+
+Pipeline de prétraitement - Automatiser le nettoyage et la préparation
+
+Benchmark des modèles - Établir une baseline de performance
+
+Intégration IA générative - Commencer par des approches simples comme SMOTE avant d'utiliser des GANs

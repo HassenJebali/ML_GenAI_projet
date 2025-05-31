@@ -1,0 +1,15 @@
+projet/
+├── data/                  # Dossier des données
+│   ├── raw/               # Données brutes originales
+│   ├── cleaned/           # Données nettoyées
+│   └── processed/         # Données prêtes pour le ML
+│
+├── genAI/                 # Expérimentations IA générative
+│   ├── synthetic_data/    # Données générées
+│   └── model_explanations/ # Explications générées
+│
+├── modèles_entrainés/     # Modèles sauvegardés
+│   ├── version1/          # Par version d'expérience
+│   └── version2/
+│
+└── ML&genAi.ipynb         # Notebook principal
