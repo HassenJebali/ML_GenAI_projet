@@ -1,0 +1,20 @@
+
+📊 Rapport de Modèle Automatique :
+
+- 🔍 Précision du modèle : 0.75
+
+- 📋 Rapport de classification :
+              precision    recall  f1-score   support
+
+           0       0.76      0.92      0.83       153
+           1       0.66      0.34      0.45        67
+
+    accuracy                           0.75       220
+   macro avg       0.71      0.63      0.64       220
+weighted avg       0.73      0.75      0.72       220
+
+
+🧠 Interprétation :
+Ce modèle de régression logistique fonctionne bien.
+Des données synthétiques ont été ajoutées pour enrichir le dataset.
+Des descriptions naturelles sont disponibles pour expliquer les prédictions.

@@ -6,13 +6,13 @@ fake = Faker()
 
 def generate_fake_passenger():
     return {
-        'Pclass': random.choice([1, 2, 3]),
-        'Sex': random.choice(['male', 'female']),
         'Age': round(random.uniform(1, 80), 1),
-        'SibSp': random.randint(0, 3),
-        'Parch': random.randint(0, 2),
         'Fare': round(random.uniform(10, 100), 2),
-        'Embarked': random.choice(['S', 'C', 'Q']),
+        'Sex': random.choice([0, 1]),          # 0 = femme, 1 = homme ou selon ton encodage
+        'sibsp': random.randint(0, 3),
+        'Parch': random.randint(0, 2),
+        'Pclass': random.choice([1, 2, 3]),
+        'Embarked': random.choice([0, 1, 2]),  # 0 = S, 1 = C, 2 = Q (adapte si différent)
         'Survived': random.choice([0, 1])
     }
 
